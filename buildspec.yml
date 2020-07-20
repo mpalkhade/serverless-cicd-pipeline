@@ -8,9 +8,9 @@ phases:
   build:
     commands:
       #- npm run deploy:dev
-      - ./node_modules/.bin/serverless deploy --stage dev | tee deploy.ou
+      #- ./node_modules/.bin/serverless deploy --stage dev | tee deploy.ou
       #- ./node_modules/.bin/serverless deploy --stage dev
   post_build:
     commands:
-      - ./test.sh
+      #- ./test.sh
  # This is new comment added to check pipeline
